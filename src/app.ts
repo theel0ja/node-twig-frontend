@@ -1,19 +1,11 @@
 // Import everything from express and assign it to the express variable
-import compression from "compression";
 import dotenv from "dotenv";
 import express, {
   NextFunction,
   Request,
   Response,
 } from "express";
-import minify from "express-minify";
-import minifyHTML from "express-minify-html";
-import sslRedirect from "heroku-ssl-redirect";
-import lusca from "lusca";
-import Raven from "raven";
-import slugid from "slugid";
 import twig from "twig";
-import uglifyEs from "uglify-es";
 
 dotenv.config();
 
