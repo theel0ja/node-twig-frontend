@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/theel0ja/node-twig-frontend",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/zidizei/heroku-buildpack-tsc#v2.0"
+    }
+  ]
+}
