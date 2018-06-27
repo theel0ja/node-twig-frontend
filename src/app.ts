@@ -35,7 +35,6 @@ const app: express.Application = express();
 /**
  * Static assets
  */
-app.use(compression());
 app.use(express.static("public"));
 
 /**
